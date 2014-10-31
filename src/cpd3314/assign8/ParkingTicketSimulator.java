@@ -112,8 +112,8 @@ public class ParkingTicketSimulator {
      *   * badge (String)
      * - checkIllegallyParked method that accepts a ParkedCar object, and a 
      *   ParkingMeter object, and returns a boolean
-     * - writeTicket method that accepts a ParkedCar, a ParkingMeter and a 
-     *   PoliceOfficer and returns a ParkingTicket object
+     * - writeTicket method that accepts a ParkedCar and a ParkingMeter and 
+     *   returns a ParkingTicket object
      */
     public class PoliceOfficer {
         
@@ -123,7 +123,7 @@ public class ParkingTicketSimulator {
      * When uncommented, the following code walks through a sample interaction 
      * with an officer and a parked car
      */
-    public static void main(String args[]) {
+    public void simulate() {
 //        // Establishes the Parked Car
 //        ParkedCar car = new ParkedCar();
 //        car.setMake("Buick");
@@ -134,7 +134,7 @@ public class ParkingTicketSimulator {
 //        
 //        // Establishes the Parking Meter
 //        ParkingMeter meter = new ParkingMeter();
-//        meter.setMinutesPurchase(15);
+//        meter.setMinutesPurchased(15);
 //        
 //        // Establishes the Officer on the Scene
 //        PoliceOfficer officer = new PoliceOfficer();
