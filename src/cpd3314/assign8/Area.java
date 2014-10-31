@@ -28,7 +28,7 @@ package cpd3314.assign8;
  * areas of the following geometric shapes:
  * - Circles
  * - Rectangles
- * - Regular Polygon
+ * - Regular Polygon (http://www.mathwords.com/a/area_regular_polygon.htm)
  * Here are the formulas for calculating the area of the shapes.
  *   Area of a Circle:              Area = Math.PI * Radius * Radius
  *   Area of a Rectangle:           Area = Width * Length
