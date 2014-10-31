@@ -28,11 +28,11 @@ package cpd3314.assign8;
  * areas of the following geometric shapes:
  * - Circles
  * - Rectangles
- * - Cylinders
+ * - Regular Polygon
  * Here are the formulas for calculating the area of the shapes.
- *   Area of a Circle:      Area = Math.PI * Radius * Radius
- *   Area of a Rectangle:   Area = Width * Length
- *   Area of a Cylinder:    Area = Math.PI * Radius * Radius * Height
+ *   Area of a Circle:              Area = Math.PI * Radius * Radius
+ *   Area of a Rectangle:           Area = Width * Length
+ *   Area of a Regular Polygon:     Area = 1/2 * NumSides * LengthSide * Radius
  * Because the three methods are to be overloaded, they should each be named 
  * calculate, but have different parameter lists.
  *
