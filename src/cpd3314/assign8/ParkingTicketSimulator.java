@@ -143,7 +143,7 @@ public class ParkingTicketSimulator {
 //        
 //        // The Interaction b/w Officer and Parked Car
 //        if (officer.checkIllegallyParked(car, meter)) {
-//            ParkingTicket ticket = officer.writeTicket(car, meter, officer);
+//            ParkingTicket ticket = officer.writeTicket(car, meter);
 //            System.out.println("Ticket Generated:");
 //            System.out.println(ticket);                    
 //        }
